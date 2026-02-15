@@ -6,8 +6,11 @@ source="DN42"
 [fd99:727:bad0:100::/56]
 country="Vietnam"
 country_code="VN"
-latitude=21.0245
-longitude=105.84117
+region="Ho Chi Minh"
+region_code="SG"
+city="Ho Chi Minh City"
+latitude=10.82302
+longitude=106.62965
 accuracy_radius=50
 
 [fd99:727:bad0:200::/56]
@@ -43,15 +46,21 @@ accuracy_radius=50
 [fd99:727:bad0:500::/56]
 country="Vietnam"
 country_code="VN"
-latitude=21.0245
-longitude=105.84117
+region="Hanoi"
+region_code="HN"
+city="Hanoi"
+latitude=21.0
+longitude=105.75
 accuracy_radius=50
 
 [fd99:727:bad0:600::/56]
 country="Vietnam"
 country_code="VN"
-latitude=21.0245
-longitude=105.84117
+region="Ho Chi Minh"
+region_code="SG"
+city="Ho Chi Minh City"
+latitude=10.82302
+longitude=106.62965
 accuracy_radius=50
 
 [fd99:727:bad0:700::/56]
@@ -305,6 +314,9 @@ accuracy_radius=50
 [fd99:727:bad0:2300::/56]
 country="United Kingdom"
 country_code="GB"
+region="England"
+region_code="ENG"
+city="London"
 latitude=51.50853
 longitude=-0.12574
 accuracy_radius=50
@@ -449,8 +461,11 @@ accuracy_radius=50
 [fd99:727:bad0:3200::/56]
 country="Vietnam"
 country_code="VN"
-latitude=21.0245
-longitude=105.84117
+region="Nghệ An Province"
+region_code="22"
+city="Vinh"
+latitude=18.67337
+longitude=105.69232
 accuracy_radius=50
 
 [fd99:727:bad0:3300::/56]
@@ -596,6 +611,9 @@ accuracy_radius=50
 [fd99:727:bad0:4100::/56]
 country="Ireland"
 country_code="IE"
+region="Leinster"
+region_code="L"
+city="Dublin"
 latitude=53.33306
 longitude=-6.24889
 accuracy_radius=50
@@ -710,8 +728,11 @@ accuracy_radius=50
 [fd99:727:bad0:4d00::/56]
 country="Switzerland"
 country_code="CH"
-latitude=46.94809
-longitude=7.44744
+region="Zurich"
+region_code="ZH"
+city="Zürich"
+latitude=47.36667
+longitude=8.55
 accuracy_radius=50
 
 [fd99:727:bad0:4e00::/56]

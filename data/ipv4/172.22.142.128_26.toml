@@ -63,8 +63,11 @@ accuracy_radius=50
 [172.22.142.134/32]
 country="Vietnam"
 country_code="VN"
-latitude=21.0245
-longitude=105.84117
+region="Nghệ An Province"
+region_code="22"
+city="Vinh"
+latitude=18.67337
+longitude=105.69232
 accuracy_radius=50
 
 [172.22.142.135/32]
@@ -210,6 +213,9 @@ accuracy_radius=50
 [172.22.142.149/32]
 country="Ireland"
 country_code="IE"
+region="Leinster"
+region_code="L"
+city="Dublin"
 latitude=53.33306
 longitude=-6.24889
 accuracy_radius=50
@@ -585,6 +591,9 @@ accuracy_radius=50
 [172.22.142.189/32]
 country="United Kingdom"
 country_code="GB"
+region="England"
+region_code="ENG"
+city="London"
 latitude=51.50853
 longitude=-0.12574
 accuracy_radius=50

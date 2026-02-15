@@ -6,8 +6,11 @@ source="DN42"
 [172.22.123.0/32]
 country="Switzerland"
 country_code="CH"
-latitude=46.94809
-longitude=7.44744
+region="Zurich"
+region_code="ZH"
+city="Zürich"
+latitude=47.36667
+longitude=8.55
 accuracy_radius=50
 
 [172.22.123.1/32]

@@ -201,3 +201,10 @@ latitude=-26.20227
 longitude=28.04363
 accuracy_radius=50
 
+[fdfe:8d0:7450:0e00::/55]
+country="Poland"
+country_code="PL"
+latitude=52.22977
+longitude=21.01178
+accuracy_radius=50
+
