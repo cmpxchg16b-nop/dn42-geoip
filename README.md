@@ -46,7 +46,7 @@ update_time  = 2025-12-31T11:45:14Z         # 最近修改时间 (UTC | yyyy-mm-
 
 [Master]
 CIDR =                  "172.20.159.0/28"   # 必选/Required
-country.name =          "China"             # 可选/Optional | 如未填写则fallback_to_master字段强制为false
+country.name =          "China"             # 可选/Optional
 country.code =          "CN"                # 可选/Optional
 source =                "DN42"              # 必选/Required | Can be DN42, NeoNetwork, ICVPN, ChaosVPN, CRXN, or other networks interconnected with DN42
 
@@ -84,7 +84,7 @@ anycast =               true                 # 可选/Optional | 默认false / e
 | 字段 | 名称 | 必要性 | 说明 |
 | - | - | - | - |
 |`CIDR` | 主网段 | 必填 | 为`inetnum`或`inet6num`里的网段 |
-| `country.name` | 国家或地区的ISO名称 | 选填 | DN42 registry 允许该项为空值，该项故为选填。若无填写该项则`country.code`无需填写且`fallback_to_master`的值强制为`false`|
+| `country.name` | 国家或地区的ISO名称 | 选填 | DN42 registry 允许该项为空值，该项故为选填。 |
 | `country.code`| 国家或地区的ISO代码 | 选填 | 如有填写`country.name`则该项为必填|
 | `source` | 网段来源 | 必填 | 可填写 `DN42`、`NeoNetwork`、`ICVPN`、`ChaosVPN`、`CRXN` 或其它与 DN42 互联的网络 |
 
@@ -119,16 +119,16 @@ anycast =               true                 # 可选/Optional | 默认false / e
 
 | 字段 | 名称 | 必要性 | 说明 |
 | - | - | - | - |
-|`address.default` | 默认address | 选填 | 为默认返回值，值可以为任意语言。 |
-| `address.de` | 德语address | 选填 | 为德语的返回值，值必须为德语。 |
-| `address.en` | 英语address | 选填 | 为英语的返回值，值必须为英语。 |
-| `address.es` | 西班牙语address | 选填 | 为西班牙语的返回值，必须为西班牙语。 |
-| `address.fr` | 法语address | 选填 | 为法语的返回值，值必须为法语。 |
-| `address.ja` | 日语address | 选填 | 为日语的返回值，值必须为日语。 |
-| `address.pt-BR` | 巴西葡萄牙语address | 选填 | 为巴西葡萄牙语的返回值，值必须为巴西葡萄牙语。 |
-| `address.ru` | 俄语address | 选填 | 为俄语的返回值，值必须为俄语。 |
-| `address.zh-hans` | 简体中文address | 选填 | 为简体中文的返回值，值必须为中文。 |
-| `address.zh-hans` | 繁体中文address | 选填 | 为繁体中文的返回值，值必须为中文。 |
+|`address.default` | 默认 address | 选填 | 为默认返回值，值可以为任意语言。 |
+| `address.de` | 德语 address | 选填 | 为德语的返回值，值必须为德语。 |
+| `address.en` | 英语 address | 选填 | 为英语的返回值，值必须为英语。 |
+| `address.es` | 西班牙语 address | 选填 | 为西班牙语的返回值，必须为西班牙语。 |
+| `address.fr` | 法语 address | 选填 | 为法语的返回值，值必须为法语。 |
+| `address.ja` | 日语 address | 选填 | 为日语的返回值，值必须为日语。 |
+| `address.pt-BR` | 巴西葡萄牙语 address | 选填 | 为巴西葡萄牙语的返回值，值必须为巴西葡萄牙语。 |
+| `address.ru` | 俄语 address | 选填 | 为俄语的返回值，值必须为俄语。 |
+| `address.zh-hans` | 简体中文 address | 选填 | 为简体中文的返回值，值必须为中文。 |
+| `address.zh-hans` | 繁体中文 address | 选填 | 为繁体中文的返回值，值必须为中文。 |
 
 
 ---
@@ -165,7 +165,35 @@ anycast =               true                 # 可选/Optional | 默认false / e
 ```
 root@xeiuserver:/opt/dn42/geo-ip-master# mmdblookup --file GeoLite2-City-DN42.mmdb -i 172.20.159.1
 
-  {
+    {
+    "address": 
+      [
+        {
+          "names": 
+            {
+              "de": 
+                "2" <utf8_string>
+              "default": 
+                "1" <utf8_string>
+              "en": 
+                "3" <utf8_string>
+              "es": 
+                "4" <utf8_string>
+              "fr": 
+                "5" <utf8_string>
+              "ja": 
+                "6" <utf8_string>
+              "pt-BR": 
+                "7" <utf8_string>
+              "ru": 
+                "8" <utf8_string>
+              "zh-hans": 
+                "9" <utf8_string>
+              "zh-hant": 
+                "0" <utf8_string>
+            }
+        }
+      ]
     "city": 
       {
         "names": 
