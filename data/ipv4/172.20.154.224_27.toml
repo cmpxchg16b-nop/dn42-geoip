@@ -53,14 +53,18 @@ latitude=47.50012
 longitude=-120.50147
 accuracy_radius=50
 
+[172.20.154.231/32]
+country="The Netherlands"
+country_code="NL"
+latitude=52.37403
+longitude=4.88969
+accuracy_radius=50
+
 [172.20.154.232/32]
-country="Germany"
-country_code="DE"
-region="Hesse"
-region_code="HE"
-city="Frankfurt"
-latitude=49.68333
-longitude=10.53333
+country="The Netherlands"
+country_code="NL"
+latitude=52.37403
+longitude=4.88969
 accuracy_radius=50
 
 [172.20.154.233/32]
