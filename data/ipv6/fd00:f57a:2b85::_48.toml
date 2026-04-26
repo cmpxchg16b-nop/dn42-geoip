@@ -1,0 +1,70 @@
+# Automatically generated from Geofeed, DO NOT EDIT
+
+[Version]
+data_version = "1.1"
+create_time = 2026-04-26T03:49:47Z
+update_time = 2026-04-26T03:51:06Z
+
+[Master]
+CIDR = "fd00:f57a:2b85::/48"
+source = "DN42"
+
+[[GeoData]]
+CIDR = "fd00:f57a:2b85::1/128"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "California"
+region.code = "CA"
+city = "San Jose"
+latitude = 38.06659
+longitude = -122.56331
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd00:f57a:2b85::2/128"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "California"
+region.code = "CA"
+city = "Los Angeles"
+latitude = 34.05223
+longitude = -118.24368
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd00:f57a:2b85::3/128"
+anycast = false
+country.name = "Canada"
+country.code = "CA"
+region.name = "British Columbia"
+region.code = "BC"
+city = "Burnaby"
+latitude = 42.86917
+longitude = -79.35361
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd00:f57a:2b85:100::/64"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "California"
+region.code = "CA"
+city = "San Jose"
+latitude = 38.06659
+longitude = -122.56331
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd00:f57a:2b85:205::/64"
+anycast = false
+country.name = "Canada"
+country.code = "CA"
+region.name = "British Columbia"
+region.code = "BC"
+city = "Burnaby"
+latitude = 42.86917
+longitude = -79.35361
+accuracy_radius = 50

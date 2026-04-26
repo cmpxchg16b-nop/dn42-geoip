@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-04-12T03:39:02Z
-update_time = 2026-04-19T03:45:22Z
+update_time = 2026-04-26T03:51:06Z
 
 [Master]
 CIDR = "fd42:23eb:6cf::/48"
@@ -49,4 +49,22 @@ region.code = "OR"
 city = "The Dalles"
 latitude = 45.59456
 longitude = -121.17868
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd42:23eb:6cf::165/128"
+anycast = false
+country.name = "China"
+country.code = "CN"
+latitude = 39.9075
+longitude = 116.39723
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd42:23eb:6cf::166/128"
+anycast = false
+country.name = "China"
+country.code = "CN"
+latitude = 39.9075
+longitude = 116.39723
 accuracy_radius = 50
