@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-04-12T03:37:45Z
-update_time = 2026-04-26T03:51:06Z
+update_time = 2026-05-03T04:06:00Z
 
 [Master]
 CIDR = "172.20.62.160/27"
@@ -63,8 +63,9 @@ accuracy_radius = 50
 [[GeoData]]
 CIDR = "172.20.62.166/32"
 anycast = false
-country.name = "China"
-country.code = "CN"
-latitude = 39.9075
-longitude = 116.39723
+country.name = "Hong Kong"
+country.code = "HK"
+city = "Kwai Chung"
+latitude = 22.35
+longitude = 114.13333
 accuracy_radius = 50

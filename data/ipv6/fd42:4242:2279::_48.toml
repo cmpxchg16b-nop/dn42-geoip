@@ -2,17 +2,17 @@
 
 [Version]
 data_version = "1.1"
-create_time = 2026-03-28T17:47:58Z
+create_time = 2026-05-03T04:04:40Z
 update_time = 2026-05-03T04:06:01Z
 
 [Master]
-CIDR = "172.22.79.192/27"
+CIDR = "fd42:4242:2279::/48"
 country.name = "Hong Kong"
 country.code = "HK"
 source = "DN42"
 
 [[GeoData]]
-CIDR = "172.22.79.200/32"
+CIDR = "fd42:4242:2279:200::/64"
 anycast = false
 country.name = "Japan"
 country.code = "JP"
@@ -24,7 +24,7 @@ longitude = 140.31667
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.201/32"
+CIDR = "fd42:4242:2279:201::/64"
 anycast = false
 country.name = "Hong Kong"
 country.code = "HK"
@@ -34,7 +34,7 @@ longitude = 114.17469
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.202/32"
+CIDR = "fd42:4242:2279:202::/64"
 anycast = false
 country.name = "Singapore"
 country.code = "SG"
@@ -44,7 +44,7 @@ longitude = 103.85007
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.203/32"
+CIDR = "fd42:4242:2279:203::/64"
 anycast = false
 country.name = "China"
 country.code = "CN"
@@ -56,7 +56,7 @@ longitude = 113.9859
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.204/32"
+CIDR = "fd42:4242:2279:204::/64"
 anycast = false
 country.name = "Hong Kong"
 country.code = "HK"
@@ -66,7 +66,7 @@ longitude = 114.17469
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.206/32"
+CIDR = "fd42:4242:2279:206::/64"
 anycast = false
 country.name = "United States"
 country.code = "US"
@@ -78,7 +78,7 @@ longitude = -122.56331
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.207/32"
+CIDR = "fd42:4242:2279:207::/64"
 anycast = false
 country.name = "Germany"
 country.code = "DE"
@@ -90,7 +90,7 @@ longitude = 10.53333
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.208/32"
+CIDR = "fd42:4242:2279:208::/64"
 anycast = false
 country.name = "United States"
 country.code = "US"
@@ -102,7 +102,7 @@ longitude = -74.17237
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.209/32"
+CIDR = "fd42:4242:2279:209::/64"
 anycast = false
 country.name = "Netherlands"
 country.code = "NL"
@@ -114,7 +114,7 @@ longitude = 4.88969
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.210/32"
+CIDR = "fd42:4242:2279:210::/64"
 anycast = false
 country.name = "France"
 country.code = "FR"
@@ -126,7 +126,7 @@ longitude = 2.3486
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.211/32"
+CIDR = "fd42:4242:2279:211::/64"
 anycast = false
 country.name = "Poland"
 country.code = "PL"
@@ -138,7 +138,7 @@ longitude = 21.01178
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.212/32"
+CIDR = "fd42:4242:2279:212::/64"
 anycast = false
 country.name = "Hong Kong"
 country.code = "HK"
@@ -148,7 +148,7 @@ longitude = 114.17469
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.213/32"
+CIDR = "fd42:4242:2279:213::/64"
 anycast = false
 country.name = "Hong Kong"
 country.code = "HK"
@@ -158,7 +158,7 @@ longitude = 114.17469
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.214/32"
+CIDR = "fd42:4242:2279:214::/64"
 anycast = false
 country.name = "China"
 country.code = "CN"
@@ -170,7 +170,7 @@ longitude = 117.46389
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.215/32"
+CIDR = "fd42:4242:2279:215::/64"
 anycast = false
 country.name = "China"
 country.code = "CN"
@@ -182,7 +182,7 @@ longitude = 114.26667
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.22.79.216/32"
+CIDR = "fd42:4242:2279:216::/64"
 anycast = false
 country.name = "South Africa"
 country.code = "ZA"
