@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-03-28T17:48:07Z
-update_time = 2026-05-03T04:06:01Z
+update_time = 2026-05-10T04:08:01Z
 
 [Master]
 CIDR = "fdef:fa9b:62b::/48"
@@ -48,13 +48,15 @@ longitude = 2.3486
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "fdef:fa9b:62b:f103::/64"
+CIDR = "fdef:fa9b:62b:f111::/64"
 anycast = false
-country.name = "Poland"
-country.code = "PL"
-city = "Warsaw"
-latitude = 52.22977
-longitude = 21.01178
+country.name = "Taiwan"
+country.code = "TW"
+region.name = "Taipei City"
+region.code = "TPE"
+city = "Taipei"
+latitude = 25.05306
+longitude = 121.52639
 accuracy_radius = 50
 
 [[GeoData]]
@@ -77,4 +79,28 @@ region.code = "NSW"
 city = "Sydney"
 latitude = -33.86785
 longitude = 151.20732
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fdef:fa9b:62b:f120::/64"
+anycast = false
+country.name = "China"
+country.code = "CN"
+region.name = "Guangdong"
+region.code = "GD"
+city = "Shenzhen"
+latitude = 22.55653
+longitude = 113.9859
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fdef:fa9b:62b:f121::/64"
+anycast = false
+country.name = "Japan"
+country.code = "JP"
+region.name = "Tokyo"
+region.code = "13"
+city = "Tokyo"
+latitude = 35.6895
+longitude = 139.69171
 accuracy_radius = 50

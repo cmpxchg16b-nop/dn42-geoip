@@ -3,34 +3,10 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-04-12T03:37:55Z
-update_time = 2026-05-03T04:06:00Z
+update_time = 2026-05-10T04:08:01Z
 
 [Master]
 CIDR = "172.20.133.160/29"
 country.name = "United States"
 country.code = "US"
 source = "DN42"
-
-[[GeoData]]
-CIDR = "172.20.133.161/32"
-anycast = false
-country.name = "United States"
-country.code = "US"
-region.name = "Virginia"
-region.code = "VA"
-city = "Manassas"
-latitude = 38.75095
-longitude = -77.47527
-accuracy_radius = 50
-
-[[GeoData]]
-CIDR = "172.20.133.162/32"
-anycast = false
-country.name = "Canada"
-country.code = "CA"
-region.name = "Quebec"
-region.code = "QC"
-city = "Beauharnois"
-latitude = 45.31341
-longitude = -73.8725
-accuracy_radius = 50

@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-03-28T20:08:10Z
-update_time = 2026-05-03T04:06:00Z
+update_time = 2026-05-10T04:08:01Z
 
 [Master]
 CIDR = "172.20.159.128/27"
@@ -21,4 +21,28 @@ region.code = "QLD"
 city = "Brisbane"
 latitude = -27.46794
 longitude = 153.02809
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.20.159.128/27"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "California"
+region.code = "CA"
+city = "Los Angeles"
+latitude = 34.05223
+longitude = -118.24368
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.20.159.128/27"
+anycast = false
+country.name = "Germany"
+country.code = "DE"
+region.name = "Hesse"
+region.code = "HE"
+city = "Frankfurt"
+latitude = 49.68333
+longitude = 10.53333
 accuracy_radius = 50

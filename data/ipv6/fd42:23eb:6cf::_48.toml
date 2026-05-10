@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-04-12T03:39:02Z
-update_time = 2026-05-03T04:06:01Z
+update_time = 2026-05-10T04:08:01Z
 
 [Master]
 CIDR = "fd42:23eb:6cf::/48"
@@ -22,15 +22,6 @@ longitude = -74.39904
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "fd42:23eb:6cf::162/128"
-anycast = false
-country.name = "China"
-country.code = "CN"
-latitude = 39.9075
-longitude = 116.39723
-accuracy_radius = 50
-
-[[GeoData]]
 CIDR = "fd42:23eb:6cf::163/128"
 anycast = false
 country.name = "China"
@@ -44,11 +35,11 @@ CIDR = "fd42:23eb:6cf::164/128"
 anycast = false
 country.name = "United States"
 country.code = "US"
-region.name = "Oregon"
-region.code = "OR"
-city = "The Dalles"
-latitude = 45.59456
-longitude = -121.17868
+region.name = "California"
+region.code = "CA"
+city = "San Jose"
+latitude = 38.06659
+longitude = -122.56331
 accuracy_radius = 50
 
 [[GeoData]]
@@ -62,6 +53,16 @@ accuracy_radius = 50
 
 [[GeoData]]
 CIDR = "fd42:23eb:6cf::166/128"
+anycast = false
+country.name = "Hong Kong"
+country.code = "HK"
+city = "Kwai Chung"
+latitude = 22.35
+longitude = 114.13333
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "fd42:23eb:6cf:1101::/64"
 anycast = false
 country.name = "Hong Kong"
 country.code = "HK"
